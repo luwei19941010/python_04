@@ -143,6 +143,10 @@ while True:
     num=int(input('请选择：'))
     print(googs[num])
 
+googs = ['汽车','飞机','火箭']
+for i in range(0,goods)
+    print (i,goods[i])
+
 
 
 #10.请用代码实现,利用下划线将列表的每一个元素拼接成字符串"a_l_e_x"
@@ -187,7 +191,7 @@ for i in li:
         li1.append(i)
 print(li1)
 
-'''
+
 #15.判断是否可以实现，如果可以请写代码实现。
 
 li = ["alex",[11,22,(88,99,100,),33] ,"WuSir", ("ritian", "barry",), "wenzhou"]
@@ -207,19 +211,24 @@ print(li)
 
 
 
+while True:
+    googs = ['汽车','飞机','火箭']
+    for  i  in range(0,len(googs)):
+        print(i+1,googs[i])
 
+    choice=int(input('choice num:'))
+    print(googs[choice-1])
 
+value=[]
+for i in range(0,9,1):
+    value.append(i)
+print(value)
 
+for i in range(10,0,-1):
+    value.append(i)
+print(value)
 
-
-
-
-
-
-
-
-
-
+'''
 
 
 
